@@ -1,0 +1,49 @@
+#banner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:350px;
+    
+    
+}
+#description{
+    padding-top:30px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.grid-container{
+    display:inline-grid;
+    grid-template-columns: 200px 200px 200px;
+    row-gap: 50px;
+   
+}
+h2,h4{
+    font-family:monospace;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    padding:10px;
+}
+p{
+    color:rgb(62, 61, 61);
+}
+#main{
+  
+    background-size:cover;
+    background-image: url(../../assets/back.jpg);
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-blend-mode: normal; 
+}
+
+.modal-body p{
+    color: #1c2541;
+}
+
+.modal-body img{
+    width: 500px;
+}
